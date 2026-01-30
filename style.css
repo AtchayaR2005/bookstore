@@ -1,0 +1,53 @@
+body{
+margin:0;
+font-family:Segoe UI;
+background-size:cover;
+background-attachment:fixed;
+color:white;
+}
+
+.overlay{
+background:rgba(0,0,0,0.6);
+min-height:100vh;
+}
+
+nav{
+background:linear-gradient(90deg,#ff9800,#ff5722,#ffc107);
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+font-weight:bold;
+text-decoration:none;
+}
+
+.box{
+width:85%;
+margin:40px auto;
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(8px);
+padding:30px;
+border-radius:15px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th,td{
+padding:12px;
+border-bottom:1px solid #ccc;
+text-align:center;
+}
+
+button{
+background:#ffc107;
+border:none;
+padding:8px 14px;
+border-radius:6px;
+cursor:pointer;
+}
